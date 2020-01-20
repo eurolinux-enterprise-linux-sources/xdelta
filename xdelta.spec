@@ -1,7 +1,7 @@
 Summary: A binary file delta generator
 Name: xdelta
 Version: 3.0.7
-Release: 2%{?dist}
+Release: 4%{?dist}
 License: GPLv2
 Group: Development/Tools
 Source0: http://xdelta.googlecode.com/files/xdelta3-%{version}.tar.gz
@@ -62,6 +62,12 @@ popd
 %{_mandir}/man1/xdelta*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.0.7-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.0.7-3
+- Mass rebuild 2013-12-27
+
 * Wed Jul 10 2013 Pavel Raiskup <praiskup@redhat.com> - 3.0.7-2
 - really remove the gcc-warning patch & remove old Makefile from git
 - s/Url/URL/, for both fixes thanks to pshiffer
